@@ -18,9 +18,9 @@
         margin: 0px;
       }    
       
-      p {
-        margin: 40px;
-        margin-top: 20px;
+      .text p {
+        padding: 40px;
+        padding-top: 10px;
         font-size: 1.4em;
         line-height: 1.8em;
       }
@@ -39,11 +39,10 @@
         padding-top: 5px;
       }
 
-      h1 {
+      .text h1 {
         width: 100%;
-        height: 30px;
         text-align: center;
-        margin-top: 30px;
+        padding-top: 30px;
       }
 
       #header h1 {
@@ -83,19 +82,15 @@
         width: 1440;
       }
       
-      .imagecolumn {
-        width: 650px;
+      .leftcolumn {
         float: left;
-        margin: 10px;
+        margin-left: 60px;
       }
       
 
-      .textcolumn {
-        width: 650px;
+      .rightcolumn {
         float: right;
-        margin-top: 50px;
-        margin-right: 5%;
-        background-color: white;
+        margin-right: 60px;
       }
       
       
@@ -103,33 +98,22 @@
         margin-top: 40px;
       }
 
-      figure {
-        float: left;
-        width: 290px;
-        height: 220px;
-        padding: 5px;
-        margin: 20px;
-        border: 1px solid #eeeeee;
+      .image {
+        width: 600px;
+        margin: 10px;
+        margin-top: 20px;
+      }
+      
+      .text {
+        width: 650px;
+        margin-top: 10px;
+        background-color: white;        
       }
 
       #sidebar {
         width: 230px;
         float: left;
         padding: 0px 0px 0px 20px;
-      }
-
-      h2 {
-        margin: 10px 0px 5px 0px;
-        padding: 0px;
-        font-weight: 700;
-        font-style: normal;
-      }
-
-      h3 {
-        margin: 0px 0px 10px 0px;
-        color: #de6581;
-        font-weight: 500;
-        font-style: normal;
       }
 
       
@@ -165,6 +149,12 @@
       .clearfix {
         overflow: auto;
         text-align: center;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      a {
+        color: blue;
       }
       
   
@@ -188,31 +178,45 @@
       </div>
       <div class="mainsection">
         <div class="subsection">
-          <div class="imagecolumn">
-            <div class="clearfix">
-              <img src="ranger.png" alt="ranger">
+          <div class="leftcolumn">
+            <div class="image">
+              <div class="clearfix">
+                <img src="ranger.png" alt="ranger">
+              </div>              
             </div>
           </div>
-          <div class="textcolumn">
-            
-            <h1>
-              Creating your Character
-            </h1>
-            <p>
-              To those new to playing Dungeons and Dragons, figuring out where to start when making your first character can be quite daunting with so much information to digest. However with some help, creating your first character does not have to be a hassle. This guide will go over the five main components needed to create a fully fledged out character, including your background, race, class, and character sheet.
-            </p>
+          <div class="rightcolumn">
+            <div class="text">
+              <h1>
+                Creating your Character
+              </h1>
+              <p>
+                To those new to playing Dungeons and Dragons, figuring out where to start when making your first character can be quite daunting with so much information to digest. However with some help, creating your first character does not have to be a hassle. This guide will go over the five main components needed to create a fully fledged out character, including your background, race, class, and character sheet.
+              </p>              
+            </div>
           </div>
         </div>
         <div class="subsection">
-          <div class="textcolumn">
-            <h1>
-              Backgrounds
-            </h1>
+          <div class="leftcolumn">
+            <div class="text">
+              <h1>
+                Backgrounds
+              </h1>        
+              <p>
+                Backgrounds in Dungeons and Dragons are what your character did before they moved on to a life of adventure, and determine what extra skills you start your journey with. Each of these backgrounds gives you a feature. two skill proficiencies, some starting equipment, and possibly a language. There are far too many backgrounds to cover in such a smaall guide, so I recommend visiting sites such as <a href="https://dnd5e.wikidot.com/#toc3" target="_blank">WikiDot</a>, that have all available backgrounds, and choose one you think matchs your characters backstory.
+              </p>
+            </div>
+          </div>
+          <div class="rightcolumn">
+            <div class="image">
+              <div class="clearfix">
+                <img src="farm.jpg" alt="Farm Homestead" width="600">
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div id="footer">
-        
       </div>
     </div>
   </body>    

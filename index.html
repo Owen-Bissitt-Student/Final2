@@ -14,39 +14,54 @@
         background-color: #b3b3b3;
         background-position: center;
         font-family: "Roboto", Times, serif;
-        line-height: 1.4em;
+        line-height: 1.5em;
         margin: 0px;
       }    
+      
+      p {
+        margin: 40px;
+        margin-top: 20px;
+        font-size: 1.4em;
+        line-height: 1.8em;
+      }
       .wrapper {
         width: 1440px;
         margin: 20px auto 20px auto;
         border: 2px solid #000000;
         background-color: #ffffff;
-        background-image: url(parch2.jpg);
+        background-image: url(parch3.jpg);
       }
 
       #header {
         height: 130px;
         text-align: center;
-        background-color: white;
-        padding-top: 20px;
+        background-color: black;
+        padding-top: 5px;
       }
 
       h1 {
         width: 100%;
-        height: 40px;
+        height: 30px;
         text-align: center;
+        margin-top: 30px;
       }
 
       #header h1 {
         width: 1400px;
         margin: 20px;
+        color: #f5d400;
+      }
+      
+      #header h2 {
+        width: 1400px;
+        margin: 20px;
+        color: #f5d400;
       }
       
       #footer {
         clear: both;
         color: #ffffff;
-        background-color: #aeaca8;
+        background-color: black;
         height: 30px;
         font-size: 80%;
         padding: 7px 0px 0px 20px;
@@ -55,9 +70,11 @@
       .subsection {
         float: left;
         width: 1440;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
         margin-top: 50px;
         overflow: auto;
+        border-style: none none dotted none;
+        border-color: red;
       }
 
       .mainsection {
@@ -66,17 +83,19 @@
         width: 1440;
       }
       
-      .leftcolumn {
-        width: 700px;
+      .imagecolumn {
+        width: 650px;
         float: left;
-        margin: 10px
+        margin: 10px;
       }
       
 
-      .rightcolumn {
-        width: 700px;
+      .textcolumn {
+        width: 650px;
         float: right;
-        background-color: blue;
+        margin-top: 50px;
+        margin-right: 5%;
+        background-color: white;
       }
       
       
@@ -113,16 +132,15 @@
         font-style: normal;
       }
 
-      #sidebar h2 {
-        padding: 30px 0px 10px 0px;
-      }
       
       ul {
         list-style-type: none;
+        border-style: solid none none none;
+        border-color: red;
         margin: 0;
-        padding: 0;
+        padding: 5;
         overflow: hidden;
-        background-color: #000000;
+        background-color: #404040;
       }
       
       li {
@@ -141,7 +159,7 @@
       }
 
       li a:hover {
-        color: #000000;
+        color: red;
       }
       
       .clearfix {
@@ -165,26 +183,31 @@
             <li><a href="#">Class</a></li>
             <li><a href="#">Allignment</a></li>
           </ul>
-          <!--
-                    Instructions: Add a list using the <ul> element and the <li> element to create a link for each menu item. Set the href value to empty. Normally you would put the relative path of page you are linking to, but we are creating a placeholder.
-                    -->
+      
         </div>
       </div>
       <div class="mainsection">
         <div class="subsection">
-          <div class="leftcolumn">
+          <div class="imagecolumn">
             <div class="clearfix">
               <img src="ranger.png" alt="ranger">
             </div>
           </div>
-          <div class="leftcolumn">
+          <div class="textcolumn">
             
             <h1>
-              Introduction to Creation
+              Creating your Character
             </h1>
             <p>
-              text 
+              To those new to playing Dungeons and Dragons, figuring out where to start when making your first character can be quite daunting with so much information to digest. However with some help, creating your first character does not have to be a hassle. This guide will go over the five main components needed to create a fully fledged out character, including your background, race, class, and character sheet.
             </p>
+          </div>
+        </div>
+        <div class="subsection">
+          <div class="textcolumn">
+            <h1>
+              Backgrounds
+            </h1>
           </div>
         </div>
       </div>

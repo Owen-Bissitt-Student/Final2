@@ -17,14 +17,7 @@
         margin: 0px;
       }    
   
-    
-      .text p {
-        padding: 40px;
-        padding-top: 10px;
-        font-size: 1.3em;
-        line-height: 1.8em;
-      }
-      .wrapper {
+       .holder {
         width: 1440px;
         margin: 20px auto 20px auto;
         margin-top: 0px;
@@ -33,18 +26,66 @@
         background-image: url(parch3.jpg);
       }
 
-      #header {
-        height: 130px;
-        text-align: left;
-        background-color: black;
-        padding-top: 5px;
+
+      .mainsection {
+        clear: both;
+        overflow: auto;
+        width: 1440;
       }
+
+      .subsection {
+        float: center;
+        width: 100%;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        overflow: auto;
+        border-style: none none dotted none;
+        border-color: red;
+      }
+      
+      .leftcolumn {
+        float: left;
+        margin-left: 60px;
+      }
+      
+      .rightcolumn {
+        float: right;
+        margin-right: 60px;
+      }
+    
+      .image {
+        width: 600px;
+        margin: 10px;
+        margin-top: 20px;
+      }
+      
+      .text {
+        width: 650px;
+        margin-top: 10px;
+        background-color: white;    
+        height: auto;
+      }
+ 
+      .text p {
+        padding: 40px;
+        padding-top: 10px;
+        font-size: 1.3em;
+        line-height: 1.8em;
+      }
+      
 
       .text h1 {
         width: 100%;
         text-align: left;
         padding-top: 40px;
         padding-left: 40px;
+      }
+  
+      #header {
+        height: 130px;
+        text-align: left;
+        background-color: black;
+        padding-top: 5px;
       }
 
       #header h1 {
@@ -72,46 +113,7 @@
         border-style: solid none none none;
         border-color: red;
       }
-
-      .subsection {
-        float: center;
-        width: 100%;
-        padding-bottom: 50px;
-        margin-top: 50px;
-        overflow: auto;
-        border-style: none none dotted none;
-        border-color: red;
-      }
-
-      .mainsection {
-        clear: both;
-        overflow: auto;
-        width: 1440;
-      }
       
-      .leftcolumn {
-        float: left;
-        margin-left: 60px;
-      }
-      
-      .rightcolumn {
-        float: right;
-        margin-right: 60px;
-      }
-    
-      .image {
-        width: 600px;
-        margin: 10px;
-        margin-top: 20px;
-      }
-      
-      .text {
-        width: 650px;
-        margin-top: 10px;
-        background-color: white;    
-        height: auto;
-      }
-
       ul {
         list-style-type: none;
         border-style: solid none none none;
@@ -149,15 +151,13 @@
         height: auto;
       }
       
-
-      
-      .table {
+      table {
         font-family: "Roboto", Times, sans-serif;
         border-collapse: collapse;
         width: 100%;
       }
       
-      .table p {
+      table p {
         font-size: 1.3em;
         float: left;
         line-height: 1.8em;
@@ -174,7 +174,7 @@
   </head>
   <body>
   <body>
-    <div class="wrapper">
+    <div class="holder">
       <div id="header">
         <h1>Beginner's Guide to Character Creation</h1>
         <h2>Dungeons and Dragons Fifth Edition</h2>
